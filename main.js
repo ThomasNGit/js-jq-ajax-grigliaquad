@@ -27,9 +27,11 @@ $( document ).ready(function(){
 
                 if(data.response <= 5){
                     thisbox.addClass("yellow");
+                    thisbox.append(data.response);
                     thisbox.off();
                 } else {
                     thisbox.addClass("green");
+                    thisbox.append(data.response);
                     thisbox.off();
                 }               
             },

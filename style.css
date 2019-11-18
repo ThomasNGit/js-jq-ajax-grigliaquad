@@ -22,15 +22,20 @@
 .box{
     width: 70px;
     height: 70px;
+    position: relative;
     background-color: #8ca0ff;
     border: 1px solid #000;
     box-shadow: 0 0 5px #fff;
+    line-height: 70px;
+    text-align: center;
 }
 
 .yellow{
     background-color: yellow;
+    box-shadow: 0 0 5px red;
 }
 
 .green{
     background-color: green;
+    box-shadow: 0 0 5px blue;
 }
