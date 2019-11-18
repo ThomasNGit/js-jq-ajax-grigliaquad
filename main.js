@@ -17,34 +17,26 @@ $( document ).ready(function(){
         
          $.ajax({
 
-            url: "https://flynn.boolean.careers/exercises/api/random/int",
+            url : "https://flynn.boolean.careers/exercises/api/random/int",
 
-            success: function(data) {
+            method : "GET",
+
+            success : function(data) {
 
                 console.log(data.response);
 
                 if(data.response <= 5){
-
                     thisbox.addClass("yellow");
                     thisbox.off();
-
                 } else {
-
                     thisbox.addClass("green");
                     thisbox.off();
-                }
-                
-
+                }               
+            },
+            error : function() {
+                 alert("ERRORE!")
             }
-
-
          })
 
-
-
-
     })
-
-
-
 })
