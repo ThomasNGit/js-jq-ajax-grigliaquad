@@ -25,3 +25,11 @@
     border: 1px solid #000;
     box-shadow: 0 0 5px #fff;
 }
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
